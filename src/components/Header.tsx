@@ -1,15 +1,14 @@
-import React from 'react'
-import {Navbar, NavDropdown,Nav, Container} from 'react-bootstrap'
+import React from "react";
+import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
 export const Header = () => {
   return (
-   
     <Navbar variant="dark" bg="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#home">Ninja Trader's Workshop</Navbar.Brand>
+        <Navbar.Brand href="#home">Trader's Workshop</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-dark-example" />
         <Navbar.Collapse id="navbar-dark-example">
           <Nav>
-            <NavDropdown
+            {/* <NavDropdown
               id="nav-dropdown-dark-example"
               title="Dropdown"
               menuVariant="dark"
@@ -23,11 +22,10 @@ export const Header = () => {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    
-  )
-}
+  );
+};
