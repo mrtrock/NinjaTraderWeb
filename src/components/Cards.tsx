@@ -23,7 +23,9 @@ export const Cards = () => {
     <Container className="px-4 my-5">
       <Row>
         <Col sm={12}>
-          <Image src="/assets/NinjaTrader.png" fluid rounded />
+          <a href="https://ninjatrader.com/">
+            <Image src="/assets/NinjaTrader.png" fluid rounded />
+          </a>
         </Col>
       </Row>
       <Row>
