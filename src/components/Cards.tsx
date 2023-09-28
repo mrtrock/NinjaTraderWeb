@@ -1,5 +1,4 @@
-import React from "react";
-import { Container, Row, Col, Image, Card, CardGroup } from "react-bootstrap";
+import { Container, Row, Col, Image, Card } from "react-bootstrap";
 export const Cards = () => {
   const cardInfo: Array<{
     title: string;

@@ -1,5 +1,4 @@
-import React from "react";
-import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 export const Header = () => {
   return (
     <Navbar variant="dark" bg="dark" expand="lg">
