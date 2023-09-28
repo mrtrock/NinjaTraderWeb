@@ -18,7 +18,7 @@ function App() {
           <Col sm={4}></Col>
           <Col sm={4}>
             <a href="https://kinetick.com/NinjaTrader" target="_blank">
-              <Image src="/src/assets/Kinetick_Logo.png" fluid rounded />
+              <Image src="/assets/Kinetick_Logo.png" fluid rounded />
             </a>
           </Col>
           <Col sm={4}></Col>

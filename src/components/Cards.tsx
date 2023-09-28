@@ -9,13 +9,13 @@ export const Cards = () => {
       title: "Second Entry Indicator",
       description:
         "This indicator will count legs (swings) and display the number on the chart. Very helpful in indentifying two-legged-pullback opportunities",
-      imagePath: "/src/assets/secondentry.png",
+      imagePath: "/assets/secondentry.png",
     },
     {
       title: "Break and Retest",
       description:
         "This indicator will identify multiple areas of support/resistance that have been broken and alert when they've approached the area for retest   ",
-      imagePath: "/src/assets/BreakRestest.png",
+      imagePath: "/assets/BreakRestest.png",
     }
   );
 
@@ -23,7 +23,7 @@ export const Cards = () => {
     <Container className="px-4 my-5">
       <Row>
         <Col sm={12}>
-          <Image src="/src/assets/NinjaTrader.png" fluid rounded />
+          <Image src="/assets/NinjaTrader.png" fluid rounded />
         </Col>
       </Row>
       <Row>
