@@ -6,7 +6,7 @@ export const Cards = () => {
     imagePath: string;
   }> = Array(
     {
-      title: "Second Entry Indicator",
+      title: "Second Entry Indicator - Coming soon",
       description:
         "This indicator will count legs (swings) and display the number on the chart. Very helpful in indentifying two-legged-pullback opportunities",
       imagePath: "/assets/secondentry.png",
