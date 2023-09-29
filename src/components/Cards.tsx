@@ -24,15 +24,13 @@ export const Cards = () => {
       <Row>
         <Col sm={5}></Col>
         <Col sm={3}>
-          <a href="https://ninjatrader.com/">
-            <Image src="/assets/logo7.png" />
-          </a>
+          <Image src="/assets/logo7.png" />
         </Col>
         <Col sm={4}></Col>
       </Row>
       <Row>
         <Card
-          className="text-center bg-secondary text white py-4 my-5"
+          className="text-center bg-dark text-white py-4 my-5"
           style={{ fontSize: 12 }}
         >
           Hi, I'm Taylor. I can't stand watching people stare and draw lines on
