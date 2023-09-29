@@ -15,13 +15,18 @@ function App() {
       </main>
       <Container>
         <Row className="px-4 py-5">
-          <Col sm={4}></Col>
-          <Col sm={4}>
+          <Col sm={6}>
             <a href="https://kinetick.com/NinjaTrader" target="_blank">
               <Image src="/assets/Kinetick_Logo.png" fluid rounded />
             </a>
           </Col>
-          <Col sm={4}></Col>
+
+          <Col sm={6} className="my-4">
+            <p>Indicator Available on</p>
+            <a href="https://ninjatrader.com/" target="_blank">
+              <Image src="/assets/NinjaTrader.png" fluid rounded />
+            </a>
+          </Col>
         </Row>
 
         <Row className="my-10">

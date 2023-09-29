@@ -22,11 +22,13 @@ export const Cards = () => {
   return (
     <Container className="px-4 my-5">
       <Row>
-        <Col sm={12}>
+        <Col sm={5}></Col>
+        <Col sm={3}>
           <a href="https://ninjatrader.com/">
-            <Image src="/assets/NinjaTrader.png" fluid rounded />
+            <Image src="/assets/logo7.png" />
           </a>
         </Col>
+        <Col sm={4}></Col>
       </Row>
       <Row>
         <Card
