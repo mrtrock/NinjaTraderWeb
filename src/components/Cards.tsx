@@ -24,7 +24,7 @@ export const Cards = () => {
       <Row>
         <Col sm={5}></Col>
         <Col sm={3}>
-          <Image src="/assets/logo7.png" />
+          <Image src="/assets/logo7.png" className="img-thumbnail" />
         </Col>
         <Col sm={4}></Col>
       </Row>
@@ -36,6 +36,7 @@ export const Cards = () => {
           Hi, I'm Taylor. I can't stand watching people stare and draw lines on
           charts when a computer can do it faster and more effienctly. With that
           said, I build tools to help save you time. Enjoy!
+          <p className="my-2"> Email: tradingsheets@gmail.com</p>
         </Card>
       </Row>
       <Row xs={1} md={2} className="g-4">

@@ -21,8 +21,8 @@ function App() {
             </a>
           </Col>
 
-          <Col sm={6} className="my-4">
-            <p>Indicator Available on</p>
+          <Col sm={6} className="">
+            <p>Indicators Available on</p>
             <a href="https://ninjatrader.com/" target="_blank">
               <Image src="/assets/NinjaTrader.png" fluid rounded />
             </a>
